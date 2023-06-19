@@ -1,0 +1,54 @@
+<div class="container">
+
+<h1> CADASTRO DE ANÚNCIOS </h1><br>
+
+
+        <!--Cadastro - RECEBENDO AS INFORMAÇÕES --> 
+
+<!-- Título -->
+<form [formGroup]="formGroupAnuncios">
+<div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Título</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="nome">
+  </div>
+
+<!-- Estado -->
+  <select class="form-select" aria-label="Default select example" formControlName="estado">
+    <option selected>Selecione o estado do produto</option>
+    <option value="1">Novo</option>
+    <option value="2">Semi-novo</option>
+    <option value="3">Usado</option>
+  </select>
+  <br>
+
+<!-- Descrição -->
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Descrição</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="descricao">
+  </div>
+
+<!-- Valor -->
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Valor</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="valor">
+  </div>
+
+<!-- Contato -->
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Contato</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="contato">
+  </div>
+
+<!-- URL -->
+  <div class="mb-3">
+    <div class="input-group">
+      <span class="input-group-text" id="basic-addon3">URL de imagem ilustrativa</span>
+      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4" formControlName="url">
+    </div>
+  </div>
+</form>
+  <!-- Botão -->
+
+  <button type="button" class="btn btn-primary" (click)="save()">Cadastrar</button>
+</div>
+
