@@ -15,9 +15,9 @@
 <!-- Estado -->
   <select class="form-select" aria-label="Default select example" formControlName="estado">
     <option selected>Selecione o estado do produto</option>
-    <option value="1">Novo</option>
-    <option value="2">Semi-novo</option>
-    <option value="3">Usado</option>
+    <option value="Novo">Novo</option>
+    <option value="Semi-novo">Semi-novo</option>
+    <option value="Usado">Usado</option>
   </select>
   <br>
 
@@ -50,5 +50,21 @@
   <!-- Botão -->
 
   <button type="button" class="btn btn-primary" (click)="save()">Cadastrar</button>
+
+  <!-- Listagem -->
+  <div class="card" style="width: 18rem;" *ngFor="let anuncio of anuncios">
+    <img [src]="anuncio.url" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{anuncio.nome}}</h5>
+      <p class="card-text">{{anuncio.descricao}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Estado: {{anuncio.estado}}</li>
+      <li class="list-group-item">Valor: R${{anuncio.valor}}</li>
+      <li class="list-group-item">Contato: {{anuncio.contato}}</li>
+    </ul>
+  </div><br>
+
+
 </div>
 

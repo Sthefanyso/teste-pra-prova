@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Anuncio } from '../anuncio';
 import { AnuncioService } from '../anuncio.service';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-anuncio',

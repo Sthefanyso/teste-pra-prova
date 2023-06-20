@@ -2,30 +2,30 @@
   "anuncio": [
     {
       "id": 1,
-      "nome": "Fone de ouvido Bluetooth",
-      "estado": "1",
-      "descricao": "Fone bluetooth de alta qualidade compatível com diferentes dispositivos.",
-      "valor": "60",
-      "contato": "11980804576",
-      "url": "https://images.tcdn.com.br/img/img_prod/742082/fone_ouvido_s_f_intra_auricular_bluetooth_5_0_android_e_ios_345_1_681aa1016a1e302f706e76d0803e3d29.jpg"
+      "nome": "Celular Xiaomi Redmi 9A 32gb",
+      "estado": "Novo",
+      "descricao": "Celular novo, xiaomi redmi 9A 32gb",
+      "valor": "1200",
+      "contato": "11984756610",
+      "url": "https://cdn.awsli.com.br/2500x2500/2111/2111611/produto/128078004/0fd8d00dd3.jpg"
     },
     {
       "id": 2,
-      "nome": "Celular Samsung Galaxy A51",
-      "estado": "2",
+      "nome": "Celular Samsung Galaxy A13",
+      "estado": "Semi-novo",
       "descricao": "Celular conservado, completo. Acompanha caixinha, fone e carregador.",
-      "valor": "1200",
-      "contato": "11941516230",
-      "url": "https://http2.mlstatic.com/D_NQ_NP_943852-MLB53397411004_012023-O.webp"
+      "valor": "850",
+      "contato": "11945612037",
+      "url": "https://imgs.casasbahia.com.br/1535969967/1xg.jpg?imwidth=500"
     },
     {
       "id": 3,
-      "nome": "Mouse Gamer",
-      "estado": "1",
-      "descricao": "Mouse gamer novo rgb",
-      "valor": "180",
-      "contato": "11951208846",
-      "url": "https://www.google.com/search?client=opera-gx&hl=pt-BR&q=mouse&tbm=isch&sa=X&ved=2ahUKEwjn-9j1us__AhXxqpUCHWKsDFMQ0pQJegQICxAB&biw=1879&bih=939&dpr=1#imgrc=tOdLbf-nNGw1QM"
+      "nome": "Fone de ouvido Bluetooth",
+      "estado": "Novo",
+      "descricao": "Fone bluetooth de alta qualidade compatível com diferentes dispositivos.",
+      "valor": "60",
+      "contato": "40235178",
+      "url": "https://images.tcdn.com.br/img/img_prod/742082/fone_ouvido_s_f_intra_auricular_bluetooth_5_0_android_e_ios_345_1_681aa1016a1e302f706e76d0803e3d29.jpg"
     }
   ]
 }
